@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit">
+
+    <test name="Hasta Kayıtlarını Birleştirme (Merge)1">
+        <parameter name="browserTipi" value="chrome"></parameter>
+        <classes>
+        <class name="US9.US9_EDIT"></class>
+        </classes>
+        </test>
+
+        <test name="Hasta Kayıtlarını Birleştirme (Merge)2">
+        <parameter name="browserTipi" value="safari"></parameter>
+        <classes>
+        <class name="US9.US9_EDIT"></class>
+        </classes>
+        </test>
+
+        </suite>
